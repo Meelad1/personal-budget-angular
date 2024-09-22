@@ -1,0 +1,15 @@
+nav ul {
+    list-style: none;   /* Removes bullet points */
+    padding: 0;         /* Removes default padding */
+    display: flex;      /* Aligns items horizontally */
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 5px;  /* Adds some space between breadcrumb items */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;    /* Removes the extra margin from the last breadcrumb */
+  }
+  
